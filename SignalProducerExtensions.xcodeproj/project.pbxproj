@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7538B6DAB0E00E1DCF2807A8 /* SignalProducerExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7552B7AA9C26A8D3342B9F67 /* SignalProducerExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75B504531EF420D3E5E27CA9 /* SignalProducerExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D0B7B75A1B1903ABC54935 /* SignalProducerExtensionsTests.swift */; };
+		75CFFDBB583255F0A59C39AA /* SignalProducerExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DE5909474A439991127322 /* SignalProducerExtensions.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75681F43AE5C308684DAFE76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BEF584BB5929BB32C27411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7584FAFBCA0A2DD1D9C73EAF;
+			remoteInfo = SignalProducerExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		752117884DBE5B16AEC85F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		7552B7AA9C26A8D3342B9F67 /* SignalProducerExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalProducerExtensions.h; sourceTree = "<group>"; };
+		75562F30D663573EDF3D3533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		75AB025B2EDCAC87E807FC88 /* SignalProducerExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalProducerExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D0B7B75A1B1903ABC54935 /* SignalProducerExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalProducerExtensionsTests.swift; sourceTree = "<group>"; };
+		75DE5909474A439991127322 /* SignalProducerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalProducerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7539A42D2E2912041F6BD217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CFFDBB583255F0A59C39AA /* SignalProducerExtensions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FDB67C453967EF9961BBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753B88279730F2BE17DB15FE = {
+			isa = PBXGroup;
+			children = (
+				7587B6D5B204FA4B0B4A4D17 /* Products */,
+				7585AD28B1C298F50BC343CE /* SignalProducerExtensions */,
+				7546D486130D20CB68BC4A3E /* SignalProducerExtensionsTests */,
+			);
+			sourceTree = "<group>";
+		};
+		7546D486130D20CB68BC4A3E /* SignalProducerExtensionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				75562F30D663573EDF3D3533 /* Info.plist */,
+				75D0B7B75A1B1903ABC54935 /* SignalProducerExtensionsTests.swift */,
+			);
+			path = SignalProducerExtensionsTests;
+			sourceTree = "<group>";
+		};
+		7585AD28B1C298F50BC343CE /* SignalProducerExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				752117884DBE5B16AEC85F44 /* Info.plist */,
+				7552B7AA9C26A8D3342B9F67 /* SignalProducerExtensions.h */,
+			);
+			path = SignalProducerExtensions;
+			sourceTree = "<group>";
+		};
+		7587B6D5B204FA4B0B4A4D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75DE5909474A439991127322 /* SignalProducerExtensions.framework */,
+				75AB025B2EDCAC87E807FC88 /* SignalProducerExtensionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75F99457257209F747923D7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7538B6DAB0E00E1DCF2807A8 /* SignalProducerExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		757931204845FCE4E1005CB3 /* SignalProducerExtensionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D5C1A8B9EC7326B2CF7D3F /* Build configuration list for PBXNativeTarget "SignalProducerExtensionsTests" */;
+			buildPhases = (
+				75277E80D927E1BB7B0E72FA /* Sources */,
+				7539A42D2E2912041F6BD217 /* Frameworks */,
+				756F1AE242ABAEC566B18AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7577E1324BDA2AD691F109D7 /* PBXTargetDependency */,
+			);
+			name = SignalProducerExtensionsTests;
+			productName = SignalProducerExtensionsTests;
+			productReference = 75AB025B2EDCAC87E807FC88 /* SignalProducerExtensionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7584FAFBCA0A2DD1D9C73EAF /* SignalProducerExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E0A33E53FB697F71B5B491 /* Build configuration list for PBXNativeTarget "SignalProducerExtensions" */;
+			buildPhases = (
+				75F99457257209F747923D7A /* Headers */,
+				75D05681B210EB682D72FCC3 /* Sources */,
+				75FDB67C453967EF9961BBFB /* Frameworks */,
+				7590CFC13793FBB9DCD43A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignalProducerExtensions;
+			productName = SignalProducerExtensions;
+			productReference = 75DE5909474A439991127322 /* SignalProducerExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75BEF584BB5929BB32C27411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = yes;
+			};
+			buildConfigurationList = 75F083AF8E28CFEFF7A24047 /* Build configuration list for PBXProject "SignalProducerExtensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 753B88279730F2BE17DB15FE;
+			productRefGroup = 7587B6D5B204FA4B0B4A4D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7584FAFBCA0A2DD1D9C73EAF /* SignalProducerExtensions */,
+				757931204845FCE4E1005CB3 /* SignalProducerExtensionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756F1AE242ABAEC566B18AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7590CFC13793FBB9DCD43A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75277E80D927E1BB7B0E72FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B504531EF420D3E5E27CA9 /* SignalProducerExtensionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D05681B210EB682D72FCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7577E1324BDA2AD691F109D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7584FAFBCA0A2DD1D9C73EAF /* SignalProducerExtensions */;
+			targetProxy = 75681F43AE5C308684DAFE76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		752C72806ABA7F892BF139D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SignalProducerExtensions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yes.SignalProducerExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		75634E8CBB3038A182230CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SignalProducerExtensionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yes.SignalProducerExtensionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		75692412B46E5FA266381BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75B07445F1FD2295A5641594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SignalProducerExtensions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yes.SignalProducerExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		75B3DFDCB6BDEBAE858DAA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SignalProducerExtensionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yes.SignalProducerExtensionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		75C22488A4C615C418AE6C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D5C1A8B9EC7326B2CF7D3F /* Build configuration list for PBXNativeTarget "SignalProducerExtensionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75634E8CBB3038A182230CEF /* Debug */,
+				75B3DFDCB6BDEBAE858DAA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75E0A33E53FB697F71B5B491 /* Build configuration list for PBXNativeTarget "SignalProducerExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752C72806ABA7F892BF139D4 /* Debug */,
+				75B07445F1FD2295A5641594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75F083AF8E28CFEFF7A24047 /* Build configuration list for PBXProject "SignalProducerExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C22488A4C615C418AE6C08 /* Debug */,
+				75692412B46E5FA266381BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75BEF584BB5929BB32C27411 /* Project object */;
+}
