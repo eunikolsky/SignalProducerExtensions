@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7538B6DAB0E00E1DCF2807A8 /* SignalProducerExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7552B7AA9C26A8D3342B9F67 /* SignalProducerExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75ADB1DF003525A9277097C9 /* SignalProducerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A399E9313A9179E43604A8 /* SignalProducerExtensions.swift */; };
 		75B504531EF420D3E5E27CA9 /* SignalProducerExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D0B7B75A1B1903ABC54935 /* SignalProducerExtensionsTests.swift */; };
 		75CFFDBB583255F0A59C39AA /* SignalProducerExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DE5909474A439991127322 /* SignalProducerExtensions.framework */; };
 /* End PBXBuildFile section */
@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		752117884DBE5B16AEC85F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		7552B7AA9C26A8D3342B9F67 /* SignalProducerExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalProducerExtensions.h; sourceTree = "<group>"; };
 		75562F30D663573EDF3D3533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		75A399E9313A9179E43604A8 /* SignalProducerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalProducerExtensions.swift; sourceTree = "<group>"; };
 		75AB025B2EDCAC87E807FC88 /* SignalProducerExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalProducerExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D0B7B75A1B1903ABC54935 /* SignalProducerExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalProducerExtensionsTests.swift; sourceTree = "<group>"; };
 		75DE5909474A439991127322 /* SignalProducerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalProducerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				752117884DBE5B16AEC85F44 /* Info.plist */,
-				7552B7AA9C26A8D3342B9F67 /* SignalProducerExtensions.h */,
+				75A399E9313A9179E43604A8 /* SignalProducerExtensions.swift */,
 			);
 			path = SignalProducerExtensions;
 			sourceTree = "<group>";
@@ -93,7 +93,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7538B6DAB0E00E1DCF2807A8 /* SignalProducerExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75ADB1DF003525A9277097C9 /* SignalProducerExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
