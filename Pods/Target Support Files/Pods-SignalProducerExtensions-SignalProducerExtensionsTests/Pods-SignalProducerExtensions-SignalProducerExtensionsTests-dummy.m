@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SignalProducerExtensions_SignalProducerExtensionsTests : NSObject
+@end
+@implementation PodsDummy_Pods_SignalProducerExtensions_SignalProducerExtensionsTests
+@end
