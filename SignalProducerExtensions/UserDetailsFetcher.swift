@@ -22,29 +22,8 @@ public struct UserDetailsFetcher {
 
     /// Sequentially fetches details for every `Username`.
     public func fetchDetails(for usernames: [Username]) -> SignalProducer<[UserDetails], Never> {
-        return SignalProducer { observer, lifetime in
-            var restOfUsernames = usernames
-            var allDetails = [UserDetails]()
-
-            func iteration() {
-                if restOfUsernames.isEmpty {
-                    observer.send(value: allDetails)
-                    observer.sendCompleted()
-                    return
-                }
-
-                let username = restOfUsernames.removeFirst()
-                self.networkRequest(username)
-                    .on(completed: {
-                        iteration()
-                    },
-                        value: { details in
-                            allDetails.append(details)
-                        })
-                    .start()
-            }
-
-            iteration()
-        }
+        return usernames
+            .map(self.networkRequest)
+            .sequence()
     }
 }
