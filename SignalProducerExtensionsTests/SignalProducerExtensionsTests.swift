@@ -7,8 +7,12 @@
 //
 
 import SignalProducerExtensions
-import XCTest
 
-class SignalProducerExtensionsTests: XCTestCase {
+import Nimble
+import Quick
 
+class SignalProducerExtensionsSpec: QuickSpec {
+    override func spec() {
+        super.spec()
+    }
 }

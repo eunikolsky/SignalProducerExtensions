@@ -6,5 +6,7 @@ target 'SignalProducerExtensions' do
   pod 'ReactiveSwift'
 
   target 'SignalProducerExtensionsTests' do
+    pod 'Quick'
+    pod 'Nimble'
   end
 end
