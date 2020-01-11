@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7538D54E83F46F28A763D0F1 /* UserDetailsFetcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7529A1D513B0E04A6A111C27 /* UserDetailsFetcherSpec.swift */; };
+		75545DF3E82BBC25FF59DB22 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B455B02104F589D90E6460 /* UserDetails.swift */; };
 		7586403A384A65318DE8E82D /* Pods_SignalProducerExtensions_SignalProducerExtensionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A28702027B132BC1769679 /* Pods_SignalProducerExtensions_SignalProducerExtensionsTests.framework */; };
 		75ADB1DF003525A9277097C9 /* SignalProducerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A399E9313A9179E43604A8 /* SignalProducerExtensions.swift */; };
 		75B504531EF420D3E5E27CA9 /* SignalProducerExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D0B7B75A1B1903ABC54935 /* SignalProducerExtensionsTests.swift */; };
 		75CFFDBB583255F0A59C39AA /* SignalProducerExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DE5909474A439991127322 /* SignalProducerExtensions.framework */; };
+		75ECE65D1E3290B6B6DE9EC5 /* UserDetailsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759928C5672620497778167C /* UserDetailsFetcher.swift */; };
 		9C326B8846C211E88204A48E /* Pods_SignalProducerExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26CCDECE14B38FD99EA2D9A /* Pods_SignalProducerExtensions.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,10 +31,13 @@
 		318CC7EF38AC72CE216FBEEF /* Pods-SignalProducerExtensions-SignalProducerExtensionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalProducerExtensions-SignalProducerExtensionsTests.debug.xcconfig"; path = "Target Support Files/Pods-SignalProducerExtensions-SignalProducerExtensionsTests/Pods-SignalProducerExtensions-SignalProducerExtensionsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40E4D31D572AF62E9D23BD5E /* Pods-SignalProducerExtensions-SignalProducerExtensionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalProducerExtensions-SignalProducerExtensionsTests.release.xcconfig"; path = "Target Support Files/Pods-SignalProducerExtensions-SignalProducerExtensionsTests/Pods-SignalProducerExtensions-SignalProducerExtensionsTests.release.xcconfig"; sourceTree = "<group>"; };
 		752117884DBE5B16AEC85F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		7529A1D513B0E04A6A111C27 /* UserDetailsFetcherSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsFetcherSpec.swift; sourceTree = "<group>"; };
 		75562F30D663573EDF3D3533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		75629ECA76C8B8EADE451C67 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		759928C5672620497778167C /* UserDetailsFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsFetcher.swift; sourceTree = "<group>"; };
 		75A399E9313A9179E43604A8 /* SignalProducerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalProducerExtensions.swift; sourceTree = "<group>"; };
 		75AB025B2EDCAC87E807FC88 /* SignalProducerExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalProducerExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B455B02104F589D90E6460 /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 		75D0B7B75A1B1903ABC54935 /* SignalProducerExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalProducerExtensionsTests.swift; sourceTree = "<group>"; };
 		75DE5909474A439991127322 /* SignalProducerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalProducerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		776F6A322AEBBDA072056106 /* Pods-SignalProducerExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalProducerExtensions.debug.xcconfig"; path = "Target Support Files/Pods-SignalProducerExtensions/Pods-SignalProducerExtensions.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +96,7 @@
 			children = (
 				75562F30D663573EDF3D3533 /* Info.plist */,
 				75D0B7B75A1B1903ABC54935 /* SignalProducerExtensionsTests.swift */,
+				7529A1D513B0E04A6A111C27 /* UserDetailsFetcherSpec.swift */,
 			);
 			path = SignalProducerExtensionsTests;
 			sourceTree = "<group>";
@@ -99,6 +106,8 @@
 			children = (
 				752117884DBE5B16AEC85F44 /* Info.plist */,
 				75A399E9313A9179E43604A8 /* SignalProducerExtensions.swift */,
+				75B455B02104F589D90E6460 /* UserDetails.swift */,
+				759928C5672620497778167C /* UserDetailsFetcher.swift */,
 			);
 			path = SignalProducerExtensions;
 			sourceTree = "<group>";
@@ -292,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B504531EF420D3E5E27CA9 /* SignalProducerExtensionsTests.swift in Sources */,
+				7538D54E83F46F28A763D0F1 /* UserDetailsFetcherSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75ADB1DF003525A9277097C9 /* SignalProducerExtensions.swift in Sources */,
+				75545DF3E82BBC25FF59DB22 /* UserDetails.swift in Sources */,
+				75ECE65D1E3290B6B6DE9EC5 /* UserDetailsFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

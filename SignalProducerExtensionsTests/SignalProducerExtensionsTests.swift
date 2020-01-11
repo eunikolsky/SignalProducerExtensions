@@ -6,6 +6,7 @@
 //  Copyright © 2020 yes. All rights reserved.
 //
 
+import ReactiveSwift
 import SignalProducerExtensions
 
 import Nimble
