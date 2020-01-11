@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		752117884DBE5B16AEC85F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		75562F30D663573EDF3D3533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		75629ECA76C8B8EADE451C67 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		75A399E9313A9179E43604A8 /* SignalProducerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalProducerExtensions.swift; sourceTree = "<group>"; };
 		75AB025B2EDCAC87E807FC88 /* SignalProducerExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalProducerExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D0B7B75A1B1903ABC54935 /* SignalProducerExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalProducerExtensionsTests.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		753B88279730F2BE17DB15FE = {
 			isa = PBXGroup;
 			children = (
+				75629ECA76C8B8EADE451C67 /* LICENSE */,
 				7587B6D5B204FA4B0B4A4D17 /* Products */,
 				7585AD28B1C298F50BC343CE /* SignalProducerExtensions */,
 				7546D486130D20CB68BC4A3E /* SignalProducerExtensionsTests */,
